@@ -1,4 +1,4 @@
-package org.example;
+package org.edu.fabs;
 
 public class Main {
     public static void main(String[] args) {
@@ -22,7 +22,7 @@ public class Main {
 
     static void c() {
         System.out.println("Entrou no método c.");
-        Thread.dumpStack(); // imprime stack trace dessa thread
+        // Thread.dumpStack(); // imprime stack trace dessa thread
         System.out.println("Finalizou o método c.");
     }
 
